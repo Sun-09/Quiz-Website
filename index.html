@@ -1,0 +1,33 @@
+<!-- HTML QUIZ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz_Web_Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+    <h1 class="h1"> ANSWER THE QUESTIONS ACCORDING TO WHICH YOU LEARN IN KGEC. DON'T USE YOUR BRAIN</h1>
+    <div class="container">
+        <div id="question-container" class="hide">
+            <p id="question"></p>
+            <div id="answer-buttons" class="btn-grid">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="start-btn" class="start-btn btn">START</button>
+            <button id="next-btn" class="next-btn btn hide">Next</button>
+        </div>
+    </div>
+    <div class="score">
+        <span id="right-answer"></span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
